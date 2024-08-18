@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Interactive card details form</title>
+</head>
+<body>
+  <div class="body">
+    <img src="./images/bg-main-desktop.png" alt="" class="bg-main">
+    <div class="body1">
+      <div class="Part1">
+        <div class="Card1">
+          <img src="./images/bg-card-front.png" alt="" class="card1Photo">
+          <div class="card1Prop">
+            <img src="./images/card-logo.svg" alt="" class="cardLogo">
+            <p class="numCart">0000 0000 0000 0000</p>
+            <p class="nameCart">JANE APPLESEED</p>
+            <p class="bdCart">00/00</p>
+          </div>
+        </div>
+        <div class="card2">
+          <img src="./images/bg-card-back.png" alt="" class="">
+          <p class="BackCartNum">000</p>
+        </div>
+      </div>
+      <div class="Part2">
+        <p class="titleCard2">CARDHOLDER NAME</p>
+        <input type="text" class="inputName" required placeholder="e.g. Jane Appleseed">
+    
+        <p class="titleCard2">CARD NUMBER</p>
+        <input required class="inputNumCard" type="number" placeholder="e.g. 1234 5678 9123 0000">
+    
+        <p class="titleCard2">EXP. DATE  (MM/YY)</p>
+        <input type="number" class="inputMM" min="1" max="12" required placeholder="MM">
+        <input type="number" class="inputYY" min="1920" max="2006" required placeholder="YY">
+        <p class="titleCard2" id="titleCVC">CVC</p>
+        <input type="number" class="inputCVC" required placeholder="e.g. 123">
+        <button>Confirm</button>
+      </div>
+    </div>
+  </div>  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Azer Jradi</a>.
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
